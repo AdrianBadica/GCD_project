@@ -55,7 +55,7 @@ Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 # Transformations made to the original dataset
 
-## In order to give the dataset a more appropiate form and to enhance readibility, several transformations
+In order to give the dataset a more appropiate form and to enhance readibility, several transformations
 have been made, using R, described below (see the Readme.md file for the code used) :
 * the X_train and X_test files have been aggregated to include all the observations
 * the names from the features.txt file have been added to the dataset (each column representing a measurement)
