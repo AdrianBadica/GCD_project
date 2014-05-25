@@ -1,6 +1,6 @@
 GCD_project
 ===========
-## Data Source
+# Data Source
 
 The data contained in this project is available from : 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -8,7 +8,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The database was built from the recordings of 30 subjects performing activities of daily living (ADL) 
 while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-#For each record it was provided:
+##For each record it was provided:
 ======================================
 
 * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -18,7 +18,7 @@ while carrying a waist-mounted smartphone with embedded inertial sensors.
 * An identifier of the subject who carried out the experiment.
 
 
-#The dataset includes the following files:
+##The dataset includes the following files:
 =========================================
 
 * 'README.txt'
@@ -30,7 +30,7 @@ while carrying a waist-mounted smartphone with embedded inertial sensors.
 * 'test/X_test.txt': Test set.
 * 'test/y_test.txt': Test labels.
 
-#The following files are available for the train and test data. Their descriptions are equivalent. 
+##The following files are available for the train and test data. Their descriptions are equivalent. 
 
 * 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. 
 Its range is from 1 to 30. 
@@ -42,7 +42,7 @@ the gravity from the total acceleration.
 * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope 
 for each window sample. The units are radians/second. 
 
-#Citation Request:
+##Citation Request:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition 
 on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of
@@ -52,9 +52,9 @@ Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 
 
-## Transformations made to the original dataset
+# Transformations made to the original dataset
 
-# In order to give the dataset a more appropiate form and to enhance readibility, several transformations
+## In order to give the dataset a more appropiate form and to enhance readibility, several transformations
 have been made, using R, described below (see the Readme.md file for the code used) :
 * the X_train and X_test files have been aggregated to include all the observations
 * the names from the features.txt file have been added to the dataset (each column representing a measurement)
@@ -65,7 +65,7 @@ their descriptive names
 * then the variables, the activities and the subjects were merged to create the complete original dataset
 
 
-# Summarizing and creating the tidy dataset :
+## Summarizing and creating the tidy dataset :
 * from the complete dataset only the measurements for the means and standard deviations have been selected :
 *'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
 * Time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz
