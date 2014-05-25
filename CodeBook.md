@@ -73,22 +73,22 @@ their descriptive names
 * The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ)
 * Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
 
->tBodyAcc-XYZ 
->tGravityAcc-XYZ 
->tBodyAccJerk-XYZ 
->tBodyGyro-XYZ
->tBodyGyroJerk-XYZ 
->tGravityAccMag
->tBodyAccJerkMag
->tBodyGyroMag
->tBodyGyroJerkMag
->fBodyAcc-XYZ
->fBodyAccJerk-XYZ
->fBodyGyro-XYZ
->fBodyAccMag
->fBodyAccJerkMag
->fBodyGyroMag
->fBodyGyroJerkMag
+-tBodyAcc-XYZ 
+-GravityAcc-XYZ 
+-tBodyAccJerk-XYZ 
+-tBodyGyro-XYZ
+-tBodyGyroJerk-XYZ 
+-tGravityAccMag
+-tBodyAccJerkMag
+-tBodyGyroMag
+-tBodyGyroJerkMag
+-fBodyAcc-XYZ
+-fBodyAccJerk-XYZ
+-fBodyGyro-XYZ
+-fBodyAccMag
+-fBodyAccJerkMag
+-fBodyGyroMag
+-fBodyGyroJerkMag
 
 * the names of the variables have been further cleaned by eliminating hyphens and parenthesis
 * for each subject and for each activity the average for each of the selected measurements has been calculated
